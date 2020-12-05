@@ -1,0 +1,8 @@
+# list/Makefile
+#
+# Makefile for list implementation and test file.
+#
+# <Author>
+
+listmake: list.c main.c
+		gcc -o idc list.c main.c
